@@ -13,7 +13,7 @@ Different API's are as follows:
 2.  '/api/pizzatypes/'  - this get request is used to return pizzatypes data only
 3.  '/api/pizzadetail/<str:pk>/'  - this is get request to get the detail of speific pizza order
 4.  '/api/createpizza/'  - this post request is used to create pizza orders directly from API
-5  '/api/updatepizza/<str:pk>/'  - this post request is used the update the data
+5.  '/api/updatepizza/<str:pk>/'  - this post request is used the update the data
 6.  '/api/delpizza/<str:pk>/'  - this delete request is used to delete the data
 
 All changes done in API are reflected in database(mongodb) and viceversa.
